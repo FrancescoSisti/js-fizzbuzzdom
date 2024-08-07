@@ -1,0 +1,41 @@
+body {
+    background-color: #1a2b3c;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.fizz {
+    background-color: #76c7c0;
+}
+
+.buzz {
+    background-color: #fdd762;
+}
+
+.fizzbuzz {
+    background-color: #f14668;
+}
+
+.number {
+    background-color: #4285f4;
+}
+
+.fizz,
+.buzz,
+.fizzbuzz,
+.number {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
